@@ -30,3 +30,6 @@
 # To oush file in remote repo branch
     git push -u origin <branch Name>
 
+# To change the remote Git repo
+    git remote set-url origin "github url"
+
