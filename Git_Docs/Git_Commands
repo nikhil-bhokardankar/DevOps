@@ -33,3 +33,8 @@
 # To change the remote Git repo
     git remote set-url origin "github url"
 
+# To list all the branches including remote branchs
+    git branch -a
+
+# To delete the remote branches
+    git push origin -d <Branch Name>
