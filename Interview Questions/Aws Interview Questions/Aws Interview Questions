@@ -1,0 +1,80 @@
+1.	What is Amazon EC2? 
+
+Amazon EC2 (Elastic Compute Cloud) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale cloud computing easier for developers.
+
+2.	How can you interact with EC2 instances? 
+
+You can interact with EC2 instances through the AWS Management Console, AWS Command Line Interface (CLI), AWS SDKs, or by using SSH for Linux instances and RDP for Windows instances.
+
+3.	What are the different types of instances available? 
+
+AWS offers a variety of instance types optimized for different use cases. These include General Purpose, Compute Optimized, Memory Optimized, Accelerated Computing, and Storage Optimized.
+
+4.	Explain the concept of ‘instance types’. 
+
+Instance types comprise varying combinations of CPU, memory, storage, and networking capacity. Each type is built to address specific workload requirements.
+
+5.	What is an AMI? 
+
+AMI stands for Amazon Machine Image. It’s a template that contains the software configuration (operating system, application server, and applications) required to launch an instance.
+
+6.	How do you secure EC2 instances? 
+
+Security Groups and Network Access Control Lists (NACLs) are used to secure EC2 instances. Additionally, IAM roles can be used to control access to instances securely.
+
+7.	What is EBS?
+
+ Amazon Elastic Block Store (EBS) provides persistent block storage volumes for use with EC2 instances.
+
+8.	Can you vertically scale an EC2 instance? How? 
+
+Yes, you can vertically scale an EC2 instance by changing its instance type, which is known as resizing the instance.
+
+
+9.	What is the difference between stopping and terminating an EC2 instance?
+
+ Stopping an instance shuts it down and retains the data on the EBS volume. Terminating an instance deletes the instance and any associated EBS volumes.
+
+10.	How does EC2 provide high availability? 
+
+EC2 provides high availability by allowing instances to be spread across multiple Availability Zones within a region.
+
+11.	What are Spot Instances? 
+
+Spot Instances allow you to bid for unused EC2 capacity at potentially lower prices.
+
+12.	What are Reserved Instances?
+
+ Reserved Instances provide you with a discount compared to On-Demand instance pricing, in exchange for committing to a one or three-year term of service.
+
+13.	What is Auto Scaling? 
+
+Auto Scaling helps you maintain application availability and allows you to scale EC2 capacity up or down automatically according to conditions you define.
+
+14.	What are Elastic IPs? 
+
+Elastic IPs are static IPv4 addresses designed for dynamic cloud computing, allowing you to manage the IP addressing of a compute instance.
+
+15.	How do you monitor EC2 instances? 
+
+You can monitor EC2 instances using Amazon CloudWatch, which provides detailed monitoring of EC2 instances and other AWS services.
+
+16.	What is a Placement Group? 
+
+A Placement Group is a logical grouping of instances within a single Availability Zone that enables applications to participate in a low-latency, 10 Gbps network.
+
+17.	What is the difference between Elastic IP and Public IP? 
+
+An Elastic IP is a static IP address designed for dynamic cloud computing, which can be reassigned to another instance. A Public IP is assigned to an instance and is released when the instance is stopped or terminated.
+
+18.	Can you attach an EBS volume to more than one EC2 instance? 
+
+No, an EBS volume can only be attached to one EC2 instance at a time. However, EBS Multi-Attach enables you to attach a Provisioned IOPS SSD (io1 or io2) volume to up to 16 Nitro-based instances within the same Availability Zone.
+
+19.	What is an EC2 Fleet? 
+
+EC2 Fleet lets you manage thousands of EC2 instances with a single request. It optimizes the costs by mixing On-Demand, Reserved, and Spot Instances across multiple instance types.
+
+20.	What is AWS Lambda, and how does it differ from EC2? 
+
+AWS Lambda is a compute service that runs your code in response to events and automatically manages the compute resources for you. EC2 gives you complete control over your computing resources and lets you run on AWS’s proven computing environment.
