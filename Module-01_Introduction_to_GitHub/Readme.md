@@ -16,7 +16,6 @@
 ## 02. Why use GitHub?
 
 - Version Control
-- Collaboration
 - Project Management
 - Community Engagement
 - Continuous Integration & Delivery
