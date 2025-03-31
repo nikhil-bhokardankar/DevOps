@@ -22,4 +22,4 @@
 - Continuous Integration & Delivery
 - Documentation & Wiki
 - Bug Tracking
-- Security and Compliance
+- Security and Compliance.
